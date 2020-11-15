@@ -95,7 +95,7 @@ int main() {
     printf ("Versione criptata della frase originale:\n");
     for (Character=0; Character < cLength; Character++){
         result[Character] = ciphertextC[Character] ^ keyK[Character];
-        printf("%c", plaintextM[Character]);
+        printf("%c", result[Character]);
     }
     printf ("\n");
     printf ("\n");
